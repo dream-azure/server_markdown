@@ -24,13 +24,13 @@ model.getFsPath = function(rPath){
 
 model.getFileData = function(file){
 var markdown = require('markdown').markdown;
-        var fs = require("fs");
-        var str = fs.readFileSync(file, "utf8");
-        var a = markdown.toHTML(str);
+        var ddd = require("ddd");
+        var bbb = ddd.readFileSync(file, "utf8");
+        var aaa = markdown.toHTML(str);
 
    
     return {
-        'content': a,
+        'content': aaa,
         'title': path.basename(file, model.dynamicExt),
         'host': model.hostName
     };
