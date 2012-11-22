@@ -1,0 +1,223 @@
+@import 
+url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+header,
+article,
+aside,
+footer {
+  display: block;
+}
+
+html, body {
+	height: 100%;
+}
+
+#container {
+  width: 95%;
+  min-width: 650px;
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  border: 2px solid #c5c5c5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  color: #191970;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+}
+
+.wr {
+  color: #696969;
+}
+
+.maincontainer {
+	height: auto;
+	width: auto;
+	
+  padding: 10px;
+  border: 2px solid #c5c5c5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ }
+
+.maincontainer > header {
+  height: 200px;
+  background: #86b7ff;
+  background-clip: padding-box;
+  text-align: center;
+  color: white;
+  font-family: Georgia, serif;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+
+}
+.maincontainer > header > .nadp {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.maincontainer > header > .nadp,
+.maincontainer > header:after {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.maincontainer > header:after {
+  content: ' ';
+  font-size: 0;
+  height: 100%;
+}
+
+.maincontainer > nav {
+	background: #000080;
+}
+
+.maincontainer > nav ul.menu {
+  margin: 0;
+  padding: 10px;
+}
+
+.maincontainer > nav ul.menu > li {
+  display: inline-block;
+}
+
+.maincontainer > nav ul.menu > li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.maincontainer > nav ul.menu > li:before {
+  content: '|| ';
+  color: white;
+}
+
+.maincontainer > nav ul.menu > li:after {
+  content: '|| ';
+  color: white;
+}
+
+.maincontainer >.layout {
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.maincontainer .layout > article {
+  padding: 10px;
+}
+
+.container > .maincontainer > .layout > aside {
+  float: right;
+  width: 20%;
+  background: #ffffff;
+  border-left: 2px solid #696969 ;
+  color: #191970;
+  border: 2px solid #c5c5c5;
+  
+}
+
+ol.personality {
+  padding: 2px;
+}
+
+
+ol.personality > li a {
+  color: #191970;
+  text-decoration: none;
+}
+
+.maincontainer > footer {
+  text-align: center;
+  background: #87CEFA;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #c5c5c5 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #c5c5c5 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #c5c5c5 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #c5c5c5 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #c5c5c5 100%);
+  overflow: hidden;
+}
+
+aside:before {
+  border-left: 1px solid black;
+  border-right: 5px solid black;
+}
+
+.maincontainer > footer > div {
+  font-size: .8em;
+}
+
+.maincontainer .block .block-content {
+  font-size: 14px;
+  border: 2px solid #c5c5c5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.maincontainer .block .block-header {
+  background: #839ec9;
+  background-clip: padding-box;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.maincontainer .block .block-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 2px;
+}
+
+#logo1 img{
+	position: relative;
+	top:50px;
+	left:50px;
+	width: 120px;
+	height: 100px;
+	float: left;
+}
+
+.zag {
+  color: #191970;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+}
