@@ -26,7 +26,7 @@ model.getFileData = function(file){
 var markdown = require('markdown').markdown;
         var ddd = require("ddd");
         var bbb = ddd.readFileSync(file, "utf8");
-        var aaa = markdown.toHTML(str);
+        var aaa = markdown.toHTML(bbb);
 
    
     return {
